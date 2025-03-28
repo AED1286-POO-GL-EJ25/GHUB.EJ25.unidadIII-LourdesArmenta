@@ -16,6 +16,16 @@ public class Principal {
         publicacion.setFecha(fecha2);
 
         //crear objetos Revista
+        Revista revista1 = new Revista(); //invoco al constructor vacio
+        Revista revista2 = new Revista("semanal",500); //invoco al constructor con 2 argumentos
+        Revista revista3 = new Revista("Televisa",new Date("01/06/2025"),"TV-notas",1000); 
+                                //invoco al constructor con 4 argumentos
+
+        //crear objetos Libro
+        Libro libro1 = new Libro(); //invoco al constructor vacio
+        Libro libro2 = new Libro()
+
+
 
        
 

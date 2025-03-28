@@ -2,46 +2,44 @@ package miPrincipal;
 import java.util.Date;
 public class Libro extends Publicacion{
     //atributos
-    private String periodicidad;
-    private int ejemplares;
+    private String isbn;
+    private String autor;
     //constructores
     public Libro(){
         super();
 
     }
-    public Libro(String periodicidad, int ejemplares){
+    public Libro(String isbn,String autor){
         super("sin definir",null);
-        this.periodicidad = periodicidad;
-        this.ejemplares = ejemplares;
-
+        this.isbn = isbn;
+        this.autor = autor;
     }
-    public Libro(String editorial, Date fecha,String periodicidad, int ejemplares ){
+    public Libro(String editorial, Date fecha, String isbn, String autor){
         super(editorial, fecha);
-        this.periodicidad = periodicidad;
-        this.ejemplares = ejemplares;
+        this.isbn = isbn;
+        this.autor = autor;
 
     }
-    //metodos personalizado
     //getter y setter
-    public String getPeriodicidad(){
-        return this.periodicidad;
+    public String getIsbn(){
+        return this.isbn;
     }
-    public void setPeriodicidad(String periodicidad){
-        this.periodicidad = periodicidad;
+    public void setIsbn(String isbn){
+        this.isbn = isbn;
+    }
+    public String getAutor(){
+        return this.autor;
+    }
+    public void setAutor(String autor){
+        this.autor = autor;
     }
 
-    public int getEjemplares(){
-        return this.ejemplares;
-    }
-    public void setEjemplares(int ejemplares){
-        this.ejemplares = ejemplares;
-    }
-    //sobreescritos
     @Override
     public String toString(){
-        return "Periodicidad: "+this.periodicidad+" Ejemplares: "+this.ejemplares;
-    }
+        
+        return " Autor: "+this.autor+" ISBN: "+this.isbn;
 
+    }
 
 
 }
