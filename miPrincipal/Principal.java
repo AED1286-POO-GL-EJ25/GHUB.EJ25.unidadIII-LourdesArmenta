@@ -23,7 +23,23 @@ public class Principal {
 
         //crear objetos Libro
         Libro libro1 = new Libro(); //invoco al constructor vacio
-        Libro libro2 = new Libro()
+        Libro libro2 = new Libro("1245455","Benito Perez Galdor"); //invoco al constructor con 2 argumentos
+        Libro libro3 = new Libro("AlgaOmega",new Date("15/08/1990"),"111111","Gabriel Garcia Marquea");
+
+        //imprimir los objetos
+        System.out.println(publicacion);
+        System.out.println(publicacion2.toString());
+        System.out.println();
+
+        System.out.println(revista1);
+        System.out.println(revista2);
+        System.out.println(revista3.toString());
+        System.out.println();
+
+        System.out.println(libro1);
+        System.out.println(libro2);
+        System.out.println(libro3);
+        
 
 
 
