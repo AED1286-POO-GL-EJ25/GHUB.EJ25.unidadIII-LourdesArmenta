@@ -3,3 +3,5 @@
 ./miPrincipal/Revista.java
 ./miPrincipal/Publicacion.java
 ./miTest/AppTest.java
+./empleado/Empleado.java
+./empleado/EmpleadoSueldoFijo.java
