@@ -1,5 +1,7 @@
 package miPrincipal;
 import java.util.Date;
+import ventana.*;
+
 
 public class Principal {
     
@@ -39,6 +41,24 @@ public class Principal {
         System.out.println(libro1);
         System.out.println(libro2);
         System.out.println(libro3);
+
+        //crear objetos Ventana
+        Ventana ventana1 = new Ventana();
+        VentanaEspecial ve1 = new VentanaEspecial();
+
+        ventana1.copiar(ventana1);
+        ventana1.copiar("*******",5,10);
+
+        ve1.copiar(ve1);
+        ve1.copiar("!!!!!!!!!!!!!!",10,20);
+        ve1.copiar('*',100,8,13);
+
+        ve1.copiar('X',5,9,7.1259F);
+
+
+
+
+
         
 
 

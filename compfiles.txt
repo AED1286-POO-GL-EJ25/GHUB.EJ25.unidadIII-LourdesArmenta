@@ -2,6 +2,12 @@
 ./miPrincipal/Libro.java
 ./miPrincipal/Revista.java
 ./miPrincipal/Publicacion.java
+./ventana/VentanaEspecial.java
+./ventana/Ventana.java
+./figuras/PruebaFiguras.java
+./figuras/ObjGeometrico.java
+./figuras/Cuadrado.java
+./figuras/Circulo.java
 ./miTest/AppTest.java
 ./empleado/Empleado.java
 ./empleado/EmpleadoSueldoFijo.java
