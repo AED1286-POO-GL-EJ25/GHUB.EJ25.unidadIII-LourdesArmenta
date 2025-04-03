@@ -31,7 +31,7 @@ public class TestConversiones {
         barco = velero; //conversion automatica
         barco = deVapor; //conversion automatica
 
-        Barco = barco2;
+        Barco barco2;
         DeVapor deVapor2 = new DeVapor();
         Carguero carguero = new Carguero();
         barco = carguero; //conversion automatica
