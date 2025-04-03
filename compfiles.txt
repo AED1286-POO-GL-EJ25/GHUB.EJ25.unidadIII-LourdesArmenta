@@ -11,3 +11,5 @@
 ./miTest/AppTest.java
 ./empleado/Empleado.java
 ./empleado/EmpleadoSueldoFijo.java
+./conversiones/Revista.java
+./conversiones/TestConversiones.java
