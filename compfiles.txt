@@ -2,6 +2,8 @@
 ./miPrincipal/Libro.java
 ./miPrincipal/Revista.java
 ./miPrincipal/Publicacion.java
+./fecha/TestFecha.java
+./fecha/Fecha.java
 ./ventana/VentanaEspecial.java
 ./ventana/Ventana.java
 ./figuras/PruebaFiguras.java
@@ -13,6 +15,8 @@
 ./empleado/EmpleadoSueldoFijo.java
 ./conversiones/Velero.java
 ./conversiones/Barco.java
+./conversiones/VideoConsola.java
+./conversiones/Consola.java
 ./conversiones/Revista.java
 ./conversiones/Carguero.java
 ./conversiones/DeVapor.java
